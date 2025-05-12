@@ -16,16 +16,16 @@ export const Apply = () => {
 		coverLetter: "",
 	})
 
-	const handleInputChange = e => {
+	const handleInputChange = (e: any) => {
 		const { name, value } = e.target
 		setFormData(prev => ({ ...prev, [name]: value }))
 	}
 
-	const handleFileChange = e => {
+	const handleFileChange = (e: any) => {
 		setFormData(prev => ({ ...prev, resume: e.target.files[0] }))
 	}
 
-	const handleSubmit = e => {
+	const handleSubmit = (e: any) => {
 		e.preventDefault()
 		// Here you would typically send the form data to your server
 		console.log(formData)
