@@ -80,7 +80,7 @@ export const Apply = () => {
 						<label htmlFor="coverLetter" className="block text-sm font-medium mb-1">
 							Cover Letter
 						</label>
-						<Textarea id="coverLetter" name="coverLetter" value={formData.coverLetter} onChange={handleInputChange} rows={5} required />
+						<Textarea id="coverLetter" className="h-122" name="coverLetter" value={formData.coverLetter} onChange={handleInputChange} rows={5} required />
 					</div>
 					<Button type="submit" className="w-full">
 						Submit Application

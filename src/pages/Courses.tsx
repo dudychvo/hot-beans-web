@@ -23,6 +23,27 @@ const courses = [
 		level: "Advanced",
 		image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
 	},
+	{
+		title: "Backend Development with Django",
+		description: "Learn to build secure and scalable web applications using Python and the Django framework.",
+		duration: "8 weeks",
+		level: "Intermediate",
+		image: "https://images.unsplash.com/photo-1580121441575-41bcb5c6b47c?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+	},
+	{
+		title: "Python for Data Science",
+		description: "Analyze data, create visualizations, and build predictive models using Python.",
+		duration: "12 weeks",
+		level: "Beginner",
+		image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+	},
+	{
+		title: "Mobile App Development with Flutter",
+		description: "Learn to build beautiful and high-performance mobile apps for iOS and Android with Flutter.",
+		duration: "9 weeks",
+		level: "Advanced",
+		image: "https://images.unsplash.com/photo-1617040619263-41c5a9ca7521?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+	}
 ]
 
 export const Courses = () => {
