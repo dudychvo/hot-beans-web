@@ -65,10 +65,10 @@ export const Apply = () => {
 							<SelectTrigger>
 								<SelectValue placeholder="Select a position" />
 							</SelectTrigger>
-							<SelectContent>
-								<SelectItem value="frontend">Junior Frontend Developer</SelectItem>
-								<SelectItem value="backend">Junior Backend Developer</SelectItem>
-								<SelectItem value="fullstack">Junior Full Stack Developer</SelectItem>
+							<SelectContent className="bg-[white]">
+								<SelectItem value="frontend" className="hover:bg-[#f2f2f2]">Junior Frontend Developer</SelectItem>
+								<SelectItem value="backend" className="hover:bg-[#f2f2f2]">Junior Backend Developer</SelectItem>
+								<SelectItem value="fullstack" className="hover:bg-[#f2f2f2]">Junior Full Stack Developer</SelectItem>
 							</SelectContent>
 						</Select>
 					</div>

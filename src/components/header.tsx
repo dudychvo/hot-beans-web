@@ -18,7 +18,7 @@ export const Header = () => {
 						{isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
 					</Button>
 				</div>
-				<ul className={`md:flex space-y-4 md:space-y-0 md:space-x-4 ${isMenuOpen ? "absolute top-16 left-0 right-0 bg-primary p-4 z-50" : "hidden"}`}>
+				<ul className={`md:flex space-y-4 md:space-y-0 md:space-x-4 ${isMenuOpen ? "absolute top-16 left-0 right-0 bg-[#657af4] p-4 z-50 text-white" : "hidden"}`}>
 					<li>
 						<Link to="/">
 							<Button variant="ghost" className="w-full md:w-auto">
