@@ -13,7 +13,7 @@ export const Home = () => {
 			<section className="mb-16">
 				<div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-xl">
 					<video className="w-full h-full object-cover" autoPlay muted loop playsInline >
-						<source src="https://videos.pexels.com/video-files/2516159/2516159-hd_1920_1080_24fps.mp4" type="video/mp4" />
+						<source src="src/assets/photos:videos/video.mp4" type="video/mp4" />
 						Your browser does not support the video tag.
 					</video>
 					<div className="absolute inset-0 bg-opacity-40 flex items-center justify-center">
@@ -39,7 +39,7 @@ export const Home = () => {
 				</div>
 				<div className="flex justify-center">
 					<img
-						src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+						src="src/assets/photos:videos/homePic.avif"
 						alt="Team working together"
 						width={500}
 						height={400}

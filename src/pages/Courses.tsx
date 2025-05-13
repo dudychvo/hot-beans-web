@@ -7,42 +7,42 @@ const courses = [
 		description: "Learn the basics of HTML, CSS, and JavaScript.",
 		duration: "6 weeks",
 		level: "Beginner",
-		image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80",
+		image: "src/assets/photos:videos/courses1.avif",
 	},
 	{
 		title: "Advanced React Development",
 		description: "Master React and build complex user interfaces.",
 		duration: "8 weeks",
 		level: "Intermediate",
-		image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+		image: "src/assets/photos:videos/courses2.avif",
 	},
 	{
 		title: "Full Stack Development with Node.js",
 		description: "Learn to build full-stack applications with Node.js and Express.",
 		duration: "10 weeks",
 		level: "Advanced",
-		image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+		image: "src/assets/photos:videos/courses3.avif",
 	},
 	{
 		title: "Backend Development with Django",
 		description: "Learn to build secure and scalable web applications using Python and the Django framework.",
 		duration: "8 weeks",
 		level: "Intermediate",
-		image: "https://images.unsplash.com/photo-1580121441575-41bcb5c6b47c?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+		image: "src/assets/photos:videos/courses4.avif",
 	},
 	{
 		title: "Python for Data Science",
 		description: "Analyze data, create visualizations, and build predictive models using Python.",
 		duration: "12 weeks",
 		level: "Beginner",
-		image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+		image: "src/assets/photos:videos/courses5.avif",
 	},
 	{
 		title: "Mobile App Development with Flutter",
 		description: "Learn to build beautiful and high-performance mobile apps for iOS and Android with Flutter.",
 		duration: "9 weeks",
 		level: "Advanced",
-		image: "https://images.unsplash.com/photo-1617040619263-41c5a9ca7521?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+		image: "src/assets/photos:videos/courses6.avif",
 	}
 ]
 

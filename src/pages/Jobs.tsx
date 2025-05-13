@@ -17,7 +17,7 @@ const jobs = [
 			"Optimize applications for maximum speed and scalability",
 			"Ensure cross-browser compatibility and responsiveness",
 		],
-		image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+		image: "src/assets/photos:videos/job1.avif",
 	},
 	{
 		title: "Junior Backend Developer",
@@ -34,7 +34,7 @@ const jobs = [
 			"Integrate data storage solutions",
 			"Ensure high performance and responsiveness to requests from the front-end",
 		],
-		image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+		image: "src/assets/photos:videos/job2.avif",
 	},
 	{
 		title: "Junior Full Stack Developer",
@@ -52,7 +52,7 @@ const jobs = [
 			"Optimize applications for maximum speed and scalability",
 			"Participate in code reviews and contribute to best practices",
 		],
-		image: "https://images.unsplash.com/photo-1573495627361-d9b87960b12d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
+		image: "src/assets/photos:videos/job3.avif",
 	},
 ]
 
