@@ -6,6 +6,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Phone, Mail, CheckSquare } from "lucide-react"
 
+import apply from "../assets/photos:videos/apply.avif"
+
 export const Apply = () => {
 	const [formData, setFormData] = useState({
 		name: "",
@@ -130,7 +132,7 @@ export const Apply = () => {
 					</Card>
 					<div className="mt-6 rounded-lg overflow-hidden">
 						<img
-							src="src/assets/photos:videos/apply.avif"
+							src={apply}
 							alt="Office environment"
 							width={600}
 							height={400}

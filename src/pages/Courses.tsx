@@ -1,48 +1,55 @@
 import { Button } from "@/components/ui/button"
 import { Link } from "react-router-dom"
 
+import courses1 from "../assets/photos:videos/courses1.avif"
+import courses2 from "../assets/photos:videos/courses2.avif"
+import courses3 from "../assets/photos:videos/courses3.avif"
+import courses4 from "../assets/photos:videos/courses4.avif"
+import courses5 from "../assets/photos:videos/courses5.avif"
+import courses6 from "../assets/photos:videos/courses6.avif"
+
 const courses = [
 	{
 		title: "Introduction to Web Development",
 		description: "Learn the basics of HTML, CSS, and JavaScript.",
 		duration: "6 weeks",
 		level: "Beginner",
-		image: "src/assets/photos:videos/courses1.avif",
+		image: courses1,
 	},
 	{
 		title: "Advanced React Development",
 		description: "Master React and build complex user interfaces.",
 		duration: "8 weeks",
 		level: "Intermediate",
-		image: "src/assets/photos:videos/courses2.avif",
+		image: courses2,
 	},
 	{
 		title: "Full Stack Development with Node.js",
 		description: "Learn to build full-stack applications with Node.js and Express.",
 		duration: "10 weeks",
 		level: "Advanced",
-		image: "src/assets/photos:videos/courses3.avif",
+		image: courses3,
 	},
 	{
 		title: "Backend Development with Django",
 		description: "Learn to build secure and scalable web applications using Python and the Django framework.",
 		duration: "8 weeks",
 		level: "Intermediate",
-		image: "src/assets/photos:videos/courses4.avif",
+		image: courses4,
 	},
 	{
 		title: "Python for Data Science",
 		description: "Analyze data, create visualizations, and build predictive models using Python.",
 		duration: "12 weeks",
 		level: "Beginner",
-		image: "src/assets/photos:videos/courses5.avif",
+		image: courses5,
 	},
 	{
 		title: "Mobile App Development with Flutter",
 		description: "Learn to build beautiful and high-performance mobile apps for iOS and Android with Flutter.",
 		duration: "9 weeks",
 		level: "Advanced",
-		image: "src/assets/photos:videos/courses6.avif",
+		image: courses6,
 	}
 ]
 

@@ -1,6 +1,10 @@
 import { Button } from "@/components/ui/button"
 import { Link } from "react-router-dom"
 
+import jobs1 from "../assets/photos:videos/job1.avif"
+import jobs2 from "../assets/photos:videos/job2.avif"
+import jobs3 from "../assets/photos:videos/job3.avif"
+
 const jobs = [
 	{
 		title: "Junior Frontend Developer",
@@ -17,7 +21,7 @@ const jobs = [
 			"Optimize applications for maximum speed and scalability",
 			"Ensure cross-browser compatibility and responsiveness",
 		],
-		image: "src/assets/photos:videos/job1.avif",
+		image: jobs1,
 	},
 	{
 		title: "Junior Backend Developer",
@@ -34,7 +38,7 @@ const jobs = [
 			"Integrate data storage solutions",
 			"Ensure high performance and responsiveness to requests from the front-end",
 		],
-		image: "src/assets/photos:videos/job2.avif",
+		image: jobs2,
 	},
 	{
 		title: "Junior Full Stack Developer",
@@ -52,7 +56,7 @@ const jobs = [
 			"Optimize applications for maximum speed and scalability",
 			"Participate in code reviews and contribute to best practices",
 		],
-		image: "src/assets/photos:videos/job3.avif",
+		image: jobs3,
 	},
 ]
 

@@ -2,6 +2,9 @@ import { Link } from "react-router-dom"
 import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
+import videoFile from "../assets/photos:videos/video.mp4"
+import homePic from "../assets/photos:videos/homePic.avif"
+
 export const Home = () => {
 	return (
 		<div className="container mx-auto px-4 py-12">
@@ -13,7 +16,7 @@ export const Home = () => {
 			<section className="mb-16">
 				<div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-xl">
 					<video className="w-full h-full object-cover" autoPlay muted loop playsInline >
-						<source src="src/assets/photos:videos/video.mp4" type="video/mp4" />
+						<source src={videoFile} type="video/mp4" />
 						Your browser does not support the video tag.
 					</video>
 					<div className="absolute inset-0 bg-opacity-40 flex items-center justify-center">
@@ -39,7 +42,7 @@ export const Home = () => {
 				</div>
 				<div className="flex justify-center">
 					<img
-						src="src/assets/photos:videos/homePic.avif"
+						src={homePic}
 						alt="Team working together"
 						width={500}
 						height={400}
